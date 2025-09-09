@@ -18,21 +18,22 @@ let saveNoteMsg = document.querySelector(".add-notesMsg-input");
 let addNotes = document.querySelector(".add-notes-button");
 let notes = JSON.parse(localStorage.getItem("notes")) || [];
 
+
+
+
+
+let msg = document.createElement("p");
+let containerDialog = document.querySelector(".container-dialog");
+containerDialog.prepend(msg);
+msg.style.textAlign = "center";
+
+
+
+
 addNotes.addEventListener("click", () => {
-
-
-
 
     let userInputTitle = saveTitle.value;
     let userInputMsg = saveNoteMsg.value;
-
-
-  
-        let msg = document.createElement("p");
-        let containerDialog = document.querySelector(".container-dialog");
-        containerDialog.prepend(msg);
-        msg.style.textAlign = "center";
-
 
     if (userInputTitle == "") {
         msg.innerHTML = "<b>*</b>Title is Necessary<b>*</b>";
