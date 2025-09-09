@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&family=Montserrat:wght@400;700&family=Lora:wght@400;700&family=Indie+Flower&family=Patrick+Hand&family=Reenie+Beanie&family=Atkinson+Hyperlegible&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif; /* default clean font */
+}
+
+h1, h2 {
+  font-family: 'Indie Flower', cursive; /* headings fun style */
+}
+

@@ -1,0 +1,35 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.notes-container {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  border: 2px solid;
+  background-color: aliceblue;
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: #111827;
+}
+.notes-heading {
+  padding: 10px;
+}
+.notes-p {
+  padding: 10px;
+}
+.deleteBtn {
+  height: 30px;
+  width: 30px;
+  background-color: #EF4444;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 1rem;
+  border-top: none;
+  border-right: none;
+}

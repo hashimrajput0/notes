@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  color: white;
+  background-color: #4b5267;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+body {
+  background-color: #b0bbbf;
+}
+.add-btn {
+  background-image: url("add.png");
+  background-size: cover;
+  border: 2px solid;
+  height: 30px;
+  width: 30px;
+}
+.add-btn:hover {
+  background-color: #5e3023;
+}
+/* dialog box to add content is here */
+.add-notes-dialog {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  border: 2px solid white;
+  box-shadow: 2px 2px 50px 2px black;
+  border-radius: 5px;
+}
+.container-dialog {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  height: 100%;
+  width: 100%;
+}
+.add-notesTitle-input {
+  padding: 10px;
+}
+.add-notesMsg-input {
+  height: 300px;
+  resize: none;
+  padding: 10px;
+}
+.add-notes-button {
+  padding: 5px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.add-notes-button {
+    width: 50%;
+}
+.cancel-notes-button {
+    width: 50%;
+}
